@@ -1,0 +1,66 @@
+.in-pay{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold!important;
+}
+
+.cancel-t{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    color:#858688;
+}
+.pay-comp{
+    color:black!important;
+    font-weight: bold!important;
+    letter-spacing: 2px;
+}
+
+.bg form {
+    background-color: #ffffff;
+    border-radius: 0px;
+    border: 1px solid #d5caca;
+}
+
+.true button {
+    border-radius: 0px;
+}
+
+.complete-submit-order {
+    width: 100%;
+}
+
+.bonfire-body {
+    background: #fcfcfc;
+}
+
+
+.all-trans{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.fa-check-circle{
+    color:#99418A;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 570px) {
+    .submit {
+        font-size: 16px;
+    }
+
+    .true .head_p {
+        font-size: 16px;
+    }
+
+    .fa-check-circle {
+        font-size: 120px;
+    }
+
+}
+
+.lip-sub{
+   background: #99418a!important;
+    letter-spacing: 1.5px;
+}

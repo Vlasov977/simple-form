@@ -1,0 +1,41 @@
+.fa-check-circle{
+    color:#63ADA3;
+}
+
+.bg-ego{
+    background: white;
+}
+
+.payment{
+    margin-bottom: 0px;
+    font-size: 32px!important;
+    font-weight:500;
+    margin-top: 30px;
+}
+
+.ecgo-form.true .card_img {
+    padding: 20px 20px 25px;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ecgo-form.true .submit {
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.bg-span{
+   background:#63ADA3!important;
+    color:white!important;
+}
+
+.all-teim{
+font-weight: bold;
+
+}
+
+.true .fa-check-circle {
+    margin-bottom: 30px;
+}

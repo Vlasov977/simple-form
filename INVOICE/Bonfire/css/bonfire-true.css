@@ -1,0 +1,32 @@
+.bonfire-body{
+    background:white;
+}
+
+.bg-border{
+    border:1px solid black;
+    padding: 0!important;
+
+
+}
+
+.pr-pay{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.fa-check-circle{
+    color:#0073BB;
+}
+
+.complete-submit-order{
+    background:#0077E2!important;
+    width: 350px;
+    height: 70px;
+    color:white!important;
+}
+
+.bg-news{
+    padding: 4% 15% 10% 10%;
+
+}

@@ -1,0 +1,41 @@
+.bonfire-body{
+    background:white;
+}
+
+.bg-border{
+    padding: 0!important;
+    border: 1px solid #80808061;
+    border-radius: 0!important;
+    box-shadow: 2px 2px 22px 2px #80808047;
+}
+
+.pr-pay{
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.fa-check-circle{
+    color:#0073BB;
+}
+
+.complete-submit-order{
+    background:#0077E2!important;
+    height: 70px;
+    color:white!important;
+
+    border-radius: 5px;
+    width: 40%;
+}
+
+.bg-news{
+    padding: 4% 15% 10% 10%;
+}
+
+
+@media (max-width: 992px) {
+    .complete-submit-order {
+        width: 100%;
+        font-size: 16px;
+    }
+}

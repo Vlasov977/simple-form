@@ -1,0 +1,37 @@
+.process-validator{
+    visibility: visible!important;
+    position: static!important;
+    box-shadow: none!important;
+    border: none!important;
+    height: 200px!important;
+    background: transparent!important;
+    display: block!important;
+}
+
+.reference {
+    margin-top: 0px;
+}
+
+.checkmark {
+    margin-top: 20px;
+}
+
+.true button{
+    cursor: pointer;
+    outline: none;
+}
+
+@media (max-width: 768px){
+    .complete-submit-order {
+        width: 100%;
+    }
+    .submit {
+        font-size: 16px;
+    }
+
+    .pr-pay {
+        font-size: 28px;
+    }
+
+}
+

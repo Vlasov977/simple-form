@@ -1,0 +1,378 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Segoue; /* Имя шрифта */
+    src: url(../fonts/Segoe_Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+/* form 0 */
+
+body{
+    background-color: #666666;
+}
+
+.start {
+    padding: 10% 0 10% 0;
+    width: 300px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.visa_div img{
+    width: 50px;
+    height: 35px;
+}
+
+.bg form{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.fa-check-circle svg{
+    color: #ffc107;
+}
+.fa-check svg{
+    width: 50px!important;
+    margin-left: 52px;
+    position: relative;
+    color: #ffc107;
+}
+form h2 {
+    text-align: center;
+    font-size: 27px;
+    color: #716f78;
+    padding: 20px 0;
+    background-color: #eef2f4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #dedede;
+    line-height: 2;
+    padding-left: 40px;
+}
+
+.start .close{
+    padding: 3px 7px;
+    background-color: #bec2c3;
+    border-radius: 20px;
+    top: 0;
+    margin-right: 10px;
+}
+
+.start .fa-times{
+    float: right;
+    font-size: 24px;
+    color: #eef2f4;
+}
+
+.card_img{
+    padding: 20px 20px 20px;
+    text-align: left;
+}
+
+.card_img p{
+    text-align: left;
+}
+
+.card_img .container-fluid{
+    display: flex;
+    justify-content: center;
+}
+
+.visa_div{
+    padding: 0 5px;
+    width: 200px;
+}
+
+.visa_img{
+    height: 90px;
+    padding: 10px;
+    border: 1px solid #5c5c5c;
+    border-radius: 10px;
+
+}
+
+.fa-question-circle{
+    position: absolute;
+    top: 10px;
+    /* bottom: 0; */
+    right: 25px;
+
+}
+
+
+
+.visa_div img{
+    border: 0.5px solid #9E9E9E;
+    border-radius: 5px;
+}
+
+.MasterCard_img{
+    height: 90px;
+    padding: 7px;
+    border: 2px solid #5c5c5c;
+    border-radius: 10px;
+}
+
+.American_img{
+    height: 90px;
+    border: 2px solid #5c5c5c;
+    border-radius: 10px;
+    background: #077BAC;
+}
+
+.discover_img{
+    height: 90px;
+    width: 180px;
+    padding: 0px;
+}
+
+.card_img .head_p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #545353;
+    padding: 20px 0 15px;
+}
+
+.card_img .sum{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.card_img input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+}
+
+.placed-inp::-webkit-input-placeholder {color:gainsboro}
+.placed-inp::-moz-placeholder {color:gainsboro}
+.placed-inp:-moz-placeholder{color:gainsboro}
+.placed-inp:-ms-input-placeholder{color:gainsboro}
+.input{
+    background: red!important;
+}
+.input_two > div:nth-child(1){
+    padding-right: 0;
+}
+
+.input_two > div:nth-child(2){
+    padding-left: 0;
+}
+
+.card_img .data{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+.card_img .cvv{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.submit{
+    font-size: 15px;
+    color: #fff;
+    background-color: #54c7c3;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 20px;
+    border: 10px;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.submit i{
+    font-size: 24px;
+    padding-right: 15px;
+}
+
+.logo{
+    padding: 35px 0 10px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo img{
+    height: 40px;
+    padding-right: 15px;
+}
+
+.logo span{
+    display: contents;
+    text-align: left;
+}
+/* form 0 end */
+
+/* form 0 true */
+    .true{
+        padding: 100px 0 30px;
+        
+    }
+
+    .true p{
+        text-align: center;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    .true .fa-check-circle{
+        margin-bottom: 50px
+    }
+
+    .true .head_p{
+        font-size: 24px;
+        color: #5d6f99;
+    }
+
+    .fa-check-circle{
+        font-size: 162px;
+        color: #53c8c3;
+    }
+
+    .true button{
+        background-color: #f0f0f0;
+        color: #000;
+        margin-top: 50px;
+        border: none;
+        border-radius: 10px;
+    }
+/* form 0 true end */
+
+/* form 0 false */
+    .false .bg_close{
+        padding: 70px 40px 35px 40px;
+        border-radius: 60px;
+        background-color: #ee5465;
+    }
+
+    .false .fa-times{
+        font-size: 60px;
+        color: #fff;
+    }
+
+    .false .head_p{
+        padding-top: 100px;
+    }
+
+    .false .red{
+        color: #ff002f;
+        font-weight: 400;
+    }
+
+    .false-pay{
+        color: #EF5366;
+    }
+
+    .false-pay-ico{
+        color: #EF5366; 
+        font-size: 150px;
+        margin-bottom: 50px;
+    }
+
+/* form 0 false end */
+
+/* md */
+@media (max-width: 1200px){
+    .visa_img {
+        height: 80px;
+    }
+
+    .bg {
+        padding: 10% 0 10% 0!important;
+    }
+
+    .MasterCard_img {
+        height: 80px;
+
+    }
+
+    .American_img {
+        height: 80px;
+        padding: 12px 6px;
+    }
+
+    .discover_img {
+        height: 80px;
+        width: 150px;
+    }
+}
+
+
+/* sm */
+@media (max-width: 992px){
+
+    .bg.start{
+        padding: 10% 0 10% 0!important;
+    }
+}
+
+
+/* xs */
+@media (max-width: 768px){
+    .card_img .container-fluid {
+        justify-content: center;
+    }
+
+    .visa_div {
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 576px){
+    .input_two > div:nth-child(1){
+        padding-right: 15px;
+    }
+
+    .input_two > div:nth-child(2){
+        padding-left: 15px;
+    }
+
+    .card_img .data{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-right: 2px solid #cccccc;
+        margin-bottom: 10px;
+    }
+
+    .card_img .cvv{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .bg.start {
+        width: 100%;
+    }
+}
+
+/* mobile */
+@media (max-width: 480px){    
+    form h2{
+        font-size: 24px;
+    }
+
+    .visa_div img {
+        width: 50px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    .close{
+        padding: 5px 8px;
+        border-radius: 20px;
+        margin-right: 10px;
+    }
+
+    .fa-times{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,190 @@
+body{
+	background: #ededee;
+}
+
+.form-five .header-part .header{
+	font-size: 24px;
+}
+
+.form-five .header-part {
+    border-bottom: 1px solid #cacaca;
+}
+
+.border_nav{
+	margin-top: 40px;
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+}
+
+.nav-pills{
+	padding: 0;
+}
+
+.tab-content>.active {
+    display: block;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    background: #f8f8f8;
+    color: #005a9c;
+    border: 1px solid #cacaca;
+    border-top: none;
+    font-size: 26px;
+    font-weight: 900;
+    font-style: italic;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 12px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.nav-pills .nav-link img{
+    height: 25px;
+    width: auto;
+}
+
+.nav-pills .nav_link_text{
+    padding-left: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #fff;
+    color: #005a9c;
+    border: none;
+}
+
+.nav-pills .nav-link.first{
+    border-left: none;
+    border-top-right-radius: 0;
+}
+
+.nav-pills .nav-link.two{
+    border-right: none;
+    border-top-left-radius: 0;
+}
+
+.biryze{
+	color: #179bd7;
+}
+
+.pp{
+	height: 40px !important;
+}
+
+.form-five .card_img .data {
+    border: 1px solid #cacaca;
+    border-radius: 0;
+}
+
+.card_img input{
+  height: 50px;
+}
+
+.card_img input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+
+.card_img select{
+  color: #cacaca;
+}
+
+.form-five .card_img .head_p {
+    padding: 20px 0 10px;
+    height: 46px;
+}
+
+.form-block{
+	width: 100%;
+}
+
+.form-block input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+
+.form-block input {
+    background: white;
+    color: #000;
+}
+
+body svg{
+	color: #cacaca !important;
+}
+
+.card_img i{
+	color: #cacaca !important;
+}
+
+.container .buttons .five-submit{
+	width: 270px;
+	text-transform: uppercase;
+	font-weight: 600;
+	vertical-align: middle;
+	justify-content: center;
+}
+
+.fa-long-arrow-alt-left{
+	position: absolute;
+    padding-right: 0;
+    margin-left: -90px;
+    margin-top: -5px;
+    padding-left: 5px;
+    font-size: 30px;
+}
+
+button{
+	display: flex;
+	align-items: center;
+	padding: 15px !important;
+}
+
+.button_2 button{
+	background: #3f87f5;
+	border: none;
+	color: #fff;
+}
+
+.fa-long-arrow-alt-right{
+	position: absolute;
+    padding-right: 5px;
+    padding-left: 0;
+    margin-left: 90px;
+    margin-top: -22px;
+    font-size: 30px;
+}
+
+@media (max-width: 992px){
+	.form-five .card_img {
+	    width: 88%;
+	}
+
+	.form-foot-flex .five-submit:nth-child(1) {
+	     margin-right: 0; 
+	}
+}
+
+@media (max-width: 768px){
+	.button_1, .button_2{
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    padding-bottom: 20px;
+	}
+}
+
+@media (max-width: 576px){
+	.form-input_row .third-part {
+	    width: 100%;
+	}
+
+	.container .buttons .five-submit {
+	    width: 240px;
+	}
+}
